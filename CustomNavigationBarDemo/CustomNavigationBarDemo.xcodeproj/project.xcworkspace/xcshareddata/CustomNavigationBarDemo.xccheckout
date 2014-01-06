@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>714E0876-D65B-41EC-BD1B-DF11BD45DCA9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CustomNavigationBarDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>990475DC-C315-4FD5-8D38-91AC7043333D</key>
+		<string>https://github.com/jimple/CustomNavigationBar.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CustomNavigationBarDemo/CustomNavigationBarDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>990475DC-C315-4FD5-8D38-91AC7043333D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jimple/CustomNavigationBar.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>990475DC-C315-4FD5-8D38-91AC7043333D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>990475DC-C315-4FD5-8D38-91AC7043333D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CustomNavigationBar</string>
+		</dict>
+	</array>
+</dict>
+</plist>
