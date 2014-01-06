@@ -55,6 +55,7 @@
     return Rect(65.0f, 22.0f, 190.0f, 40.0f);
 }
 
+// 创建一个导航条按钮：使用默认的按钮图片。
 + (UIButton *)createNormalNaviBarBtnByTitle:(NSString *)strTitle target:(id)target action:(SEL)action
 {
     UIButton *btn = [[self class] createImgNaviBarBtnByImgNormal:@"NaviBtn_Normal" imgHighlight:@"NaviBtn_Normal_H" target:target action:action];
@@ -66,6 +67,7 @@
     return btn;
 }
 
+// 创建一个导航条按钮：自定义按钮图片。
 + (UIButton *)createImgNaviBarBtnByImgNormal:(NSString *)strImg imgHighlight:(NSString *)strImgHighlight target:(id)target action:(SEL)action
 {
     return [[self class] createImgNaviBarBtnByImgNormal:strImg imgHighlight:strImgHighlight imgSelected:strImg target:target action:action];
@@ -89,11 +91,6 @@
     [btn setTitleEdgeInsets:UIEdgeInsetsMake(fDeltaHeight, -imgNormal.size.width, fDeltaHeight, fDeltaWidth)];
     
     return btn;
-}
-
-+ (UIView *)createCoverView
-{
-    return [[UIView alloc] initWithFrame:Rect(0.0f, 0.0f, [[self class] barSize].width, [[self class] barSize].width)];
 }
 
 - (id)initWithFrame:(CGRect)frame
@@ -129,6 +126,7 @@
 {
     self.backgroundColor = [UIColor clearColor];
     
+    // 默认左侧显示返回按钮
     _btnBack = [[self class] createImgNaviBarBtnByImgNormal:@"NaviBtn_Back" imgHighlight:@"NaviBtn_Back_H" target:self action:@selector(btnBack:)];
     
     _labelTitle = [[UILabel alloc] initWithFrame:CGRectZero];
@@ -142,7 +140,7 @@
     _imgViewBg.alpha = 0.98f;
     
     if (_bIsBlur)
-    {
+    {// iOS7可设置是否需要现实磨砂玻璃效果
         _imgViewBg.alpha = 0.0f;
         UINavigationBar *naviBar = [[UINavigationBar alloc] initWithFrame:self.bounds];
         [self addSubview:naviBar];
@@ -160,11 +158,6 @@
 - (void)setTitle:(NSString *)strTitle
 {
     [_labelTitle setText:strTitle];
-}
-
-- (void)setTitleBadge:(UIView *)viewBadge
-{
-    [self addSubview:viewBadge];
 }
 
 - (void)setLeftBtn:(UIButton *)btn

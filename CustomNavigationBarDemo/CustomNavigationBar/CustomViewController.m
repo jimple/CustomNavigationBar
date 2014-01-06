@@ -95,14 +95,6 @@
     }else{APP_ASSERT_STOP}
 }
 
-- (void)setNaviBarTitleBadge:(UIView *)viewBadge
-{
-    if (_viewNaviBar && viewBadge)
-    {
-        [_viewNaviBar setTitleBadge:viewBadge];
-    }else{APP_ASSERT_STOP}
-}
-
 - (void)setNaviBarLeftBtn:(UIButton *)btn
 {
     if (_viewNaviBar)

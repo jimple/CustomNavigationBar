@@ -58,8 +58,10 @@
 #pragma mark - CustomNaviBar UI
 - (void)initUI
 {
-    [self setNaviBarTitle:@"Title"];
-    [self setNaviBarLeftBtn:nil];
+    [self setNaviBarTitle:@"Title"];    // 设置标题
+    [self setNaviBarLeftBtn:nil];       // 若不需要默认的返回按钮，直接赋nil
+    
+    // 创建一个自定义的按钮，并添加到导航条右侧。
     _btnNaviRight = [CustomNaviBarView createNormalNaviBarBtnByTitle:@"Next" target:self action:@selector(btnNext:)];
     [self setNaviBarRightBtn:_btnNaviRight];
 }

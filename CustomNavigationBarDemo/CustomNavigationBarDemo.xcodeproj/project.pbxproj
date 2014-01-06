@@ -107,17 +107,17 @@
 		07B4C2B4187A915C00F33757 /* CustomNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
-				07B4C2B5187A915C00F33757 /* CustomNaviBarSearchController.h */,
-				07B4C2B6187A915C00F33757 /* CustomNaviBarSearchController.m */,
+				07B4C2BD187A915C00F33757 /* GlobalDefine.h */,
+				07B4C2BE187A915C00F33757 /* UtilityFunc.h */,
+				07B4C2BF187A915C00F33757 /* UtilityFunc.m */,
 				07B4C2B7187A915C00F33757 /* CustomNaviBarView.h */,
 				07B4C2B8187A915C00F33757 /* CustomNaviBarView.m */,
+				07B4C2B5187A915C00F33757 /* CustomNaviBarSearchController.h */,
+				07B4C2B6187A915C00F33757 /* CustomNaviBarSearchController.m */,
 				07B4C2B9187A915C00F33757 /* CustomNavigationController.h */,
 				07B4C2BA187A915C00F33757 /* CustomNavigationController.m */,
 				07B4C2BB187A915C00F33757 /* CustomViewController.h */,
 				07B4C2BC187A915C00F33757 /* CustomViewController.m */,
-				07B4C2BD187A915C00F33757 /* GlobalDefine.h */,
-				07B4C2BE187A915C00F33757 /* UtilityFunc.h */,
-				07B4C2BF187A915C00F33757 /* UtilityFunc.m */,
 			);
 			path = CustomNavigationBar;
 			sourceTree = SOURCE_ROOT;

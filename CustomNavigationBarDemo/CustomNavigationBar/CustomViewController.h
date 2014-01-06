@@ -14,7 +14,6 @@
 
 - (void)hideNaviBar:(BOOL)bIsHide;
 - (void)setNaviBarTitle:(NSString *)strTitle;
-- (void)setNaviBarTitleBadge:(UIView *)viewBadge;
 - (void)setNaviBarLeftBtn:(UIButton *)btn;
 - (void)setNaviBarRightBtn:(UIButton *)btn;
 
