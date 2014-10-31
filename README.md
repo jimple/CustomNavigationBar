@@ -9,7 +9,7 @@ CustomNavigationBar
 
 为适应自动布局进行了重写：
 
-https://github.com/jimple/JCNavigationBar/tree/master
+https://github.com/jimple/JCNavigationBar
 
 
 ================================================================
